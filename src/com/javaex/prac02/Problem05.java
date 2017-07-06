@@ -10,9 +10,9 @@ public class Problem05 {
 			
 			for(int j = 0; j<i; j++) {
 				if(numbers[j] == numbers[i] ) {
-					i--;
+					numbers[i] = (int)(Math.random()*45)+1;
 					
-					break;
+					j = 0;
 				}
 				
 			}
