@@ -8,10 +8,10 @@ public class Problem01 {
 		num = 0;				//개수
 		
 		
-		for(int i =0; i<data.length; i++) {
-			if(data[i]%3==0) {
+		for(int i : data) {
+			if(i%3==0) {
 				num++;
-				sum+=data[i];
+				sum+=i;
 			}
 		}
 		
