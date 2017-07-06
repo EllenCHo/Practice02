@@ -18,6 +18,9 @@ public class Problem04 {
 			money = money % unit[i];				//나눈 나머지값 다시 저장 
 													//그 단위 후의 단위로 다시 계산할 수 있음
 		}
+		
+		sc.close();
+		
 	}
 
 }
