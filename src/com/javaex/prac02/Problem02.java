@@ -18,6 +18,8 @@ public class Problem02 {
 		double average = sum/5; 
 		
 		System.out.println("평균은 "+average+" 입니다.");
+		
+		sc.close();
 	}
 
 }
